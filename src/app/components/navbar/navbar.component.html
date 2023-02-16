@@ -1,0 +1,19 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<div>
+    <div class = "navBar">
+        <h1 [routerLink]="['home']">JS Times</h1>
+        <button [routerLink]="['/login']" *ngIf="authService.currUsr == null" id = "login-btn">LOGIN</button>
+        <div class="homeIcon">
+            <img [routerLink]="['home']" id="homeBtn" src="../../../assets/home.png">
+        </div>
+        <div ngbDropdown>
+            <button id="accDropDown" ngbDropdownToggle *ngIf="authService.currUsr != null">{{authService.currUsr.displayName}}</button>
+            <div ngbDropdownMenu="accDropDown" class="accDropMenu">
+                <button [routerLink]="['home']" *ngIf="authService.currUsr != null" (click)="authService.logOut()">log out</button>
+            </div>
+        </div>
+    </div>
+</div>

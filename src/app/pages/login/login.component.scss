@@ -1,0 +1,46 @@
+#loginGG{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 1.2rem;
+    background-color: #B2EEE6;
+    border-radius: 5px;
+    border: none;
+    padding: .8rem;
+    float: center;
+    margin-top: 2rem;
+    // margin: 10% 0% 0% 45%;
+}
+
+#loginGG:hover{
+    cursor: pointer;
+    background-color: #8AD6CC;
+}
+
+.logInWin{
+    width: 25rem;
+    height: 30rem;
+    border-radius: 1rem;
+    background-color: #6CB4B8;
+    text-align: center;
+    float: center;
+    padding: 1rem;
+    box-shadow: 11px 10px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 10px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 10px 0px rgba(0,0,0,0.75);
+    margin-top: 7%;
+    margin-left: 40%;
+}
+
+.pageBanner > p{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 500;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.logInWin > p{
+    font-family: 'Ubuntu', sans-serif; 
+    color: aliceblue;
+    font-size: 2.5rem;
+}

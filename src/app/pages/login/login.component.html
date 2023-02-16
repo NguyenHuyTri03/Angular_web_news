@@ -1,0 +1,13 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<div class="logInWin">
+    <div class="pageBanner">
+        <p>js times</p>
+    </div>
+    <p>Account Log In</p>
+    <button id = "loginGG" *ngIf="authService.currUsr == null" (click)="authService.loginWithGG()">Log in with Google</button>
+</div>
+
+

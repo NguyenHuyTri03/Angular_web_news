@@ -1,0 +1,109 @@
+.navBar{
+    background-color: #6CB4B8;
+    padding: 1rem;
+    box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navBar > h1{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 2%;
+    margin-top: 1%;
+    text-shadow: 4px 2px 5px #000000;
+}
+
+.navBar > h1:hover{
+    cursor: pointer;
+}
+
+#usrName{
+    float: right;
+    font-size: 1.7rem;
+    margin: -2% 1% 0 0;
+}
+
+.navBar > button{
+    font-size: 1.2rem;
+    color: #118c92;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    background-color: #B2EEE6;
+    border-radius: 10px;
+    border: none;
+    padding: .8rem;
+    float: right;
+    height: 3.1rem;
+    margin: auto auto;
+    margin-top: -3.9rem;
+}
+
+#usrName{
+    color: white;
+    background-color: transparent;
+}
+
+.navBar > button:hover{
+    cursor: pointer;
+    background-color: #a9f7eb;
+}
+
+#homeBtn{
+    border-radius: 10px;
+    background-color: #B2EEE6;
+    padding: .5rem;
+    margin-left: 92%;
+    margin-top: -5.4%;
+}
+
+#homeBtn:hover{
+    background-color: #a9f7eb;
+    cursor: pointer;
+}
+
+#accDropDown{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    background-color: #B2EEE6;
+    border-radius: 10px;
+    border: none;
+    padding: .8rem;
+    float: right;
+    height: 3.1rem;
+    margin: auto auto;
+    margin-top: -5.3rem;
+}
+
+#accDropDown:hover{
+    background-color: #a9f7eb;
+}
+
+.accDropMenu{
+    background-color: #8AD6CC;
+    margin: -1.5% auto auto 92%;
+    box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.75);
+}
+
+.accDropMenu > button{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    margin-left: 25%;
+}
