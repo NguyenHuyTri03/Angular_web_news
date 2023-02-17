@@ -9,13 +9,17 @@
 
 <div class="newsDiv" *ngFor="let item of runW">
     <div class="contentDiv" *ngIf="authService.currUsr != null">
+        <!-- <img class="coverImg" src={{item.cover_image}}> -->
+        <img class="coverImg" src={{item.social_image}}>
+        <div class="imgDiv">
+            <img class="profileImg" src={{item.user.profile_image}}>
+        </div>
         <p>ID: {{item.id}}</p>
         <p class="big">Name: {{item.user.name}}</p>
         <p>Username: {{item.user.username}}</p>
         <p>Twitter: {{item.user.twitter_username}}</p>
         <p>Github: {{item.user.github_username}}</p>
         <p>Website: {{item.user.website_url}}</p>
-        <p>Profile image: {{item.user.profile_image}}</p>
         <p class="big">Title: {{item.title}}</p>
         <p>Description: {{item.description}}</p>
         <p>Date: {{item.readable_publish_date}}</p>
@@ -25,8 +29,6 @@
         <p>Public reactions: {{item.public_reactions_count}}</p>
         <p>Positive reactions: {{item.positive_reactions_count}}</p>
         <p>Published timestamp: {{item.published_timestamp}}</p>
-        <p>Cover image: {{item.cover_image}}</p>
-        <p>Social image: {{item.social_image}}</p>
         <p>Canonical URL: {{item.canonical_url}}</p>
         <p>Created date: {{item.created_at}}</p>
         <p>Edited date: {{item.edited_at}}</p>
